@@ -140,12 +140,6 @@
     };
 
     window.addEventListener('load', function () {
-        tizen.tvinputdevice.registerKey('MediaPlay');
-        tizen.tvinputdevice.registerKey('MediaPause');
-        tizen.tvinputdevice.registerKey('MediaStop');
-        tizen.tvinputdevice.registerKey('MediaTrackPrevious');
-        tizen.tvinputdevice.registerKey('MediaTrackNext');
-        tizen.tvinputdevice.registerKey('MediaRewind');
-        tizen.tvinputdevice.registerKey('MediaFastForward');
+        tizen.tvinputdevice.registerKey('MediaPlayPause');
     });
 })();
